@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn.dribbble.com/users/2627620/screenshots/5373852/mj_1_1x.png">
+    <title>Application Form</title>
+    <style>
+        body{background-image: url(https://img.freepik.com/free-vector/white-abstract-background-3d-paper-style_23-2148402758.jpg?size=626&ext=jpg);
+        background-size: cover;}
+        h1{text-align: center;}
+    </style>
+</head>
+<body>
+    <h1>Application for permission to date my daughter!</h1>
+    <h2>Please enter your details here.</h2>
+        <form action="Form Confirmation.html" name="form1">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" placeholder="Type your name here"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email here"><br><br>
+        <label for="mobile_no">Contact No:</label>
+        <input type="number" id="mobile_no" name="mobile_no" placeholder="Contact number"><br><br>
+        <p>Gender:</p>
+        <input type="radio" id="male" name="male" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="female" value="Female">
+        <label for="female">Female</label><br><br>
+        <label for="purpose">Date of proposed outing:</label>
+        <input type="date" id="purpose" name="purpose"><br>
+        <p>Additional information about yourself</p>
+        <input type="checkbox" id="tattos" name="tatoos">
+        <label for="tatoos">I have tattoos and/or piercings</label><br>
+        <input type="checkbox" id="old" name="old">
+        <label for="old">I am more than 2 years older than your daughter</label><br>
+        <input type="checkbox" id="car" name="car">
+        <label for="car">I own a panel van or Ferrari</label><br>
+        <input type="checkbox" id="work" name="work">
+        <label for="work">I work full time</label><br>
+        <input type="checkbox" id="rich" name="rich">
+        <label for="rich">My parents are rich</label><br>
+        <input type="checkbox" id="location" name="loaction">
+        <label for="location"> Is the date at a private/public location</label><br>
+        <p>Education level completed:</p>
+        <select name="text" multiple size="2">
+                <option value="1">HSC</option>
+                <option value="2">Graduate</option>
+                <option value="3">Post Graduate</option>
+        </select><br><br>
+        <label for="Essay">Why do you want to date my daughter (50 words input)?</label><br>
+        <textarea id="Essay" name="w3review" rows="10" cols="50">
+        </textarea><br><br>
+        <label for="mobile">Please provide one contact point for your reference:</label>
+        <input type="text" id="mobile" name="mobile"><br><br>
+        <label for="bank"><b>Please upload your bank statement:</b></label><br>
+        <input type="file" id="bank" name="bank"><br><br>
+        <input type="submit" id="submitform"/>
+        </form>
+</body>
+</html>
